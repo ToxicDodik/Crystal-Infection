@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
     
             if (raycast.collider.tag == "Enemy")
             {
-                raycast.collider.GetComponent<EnemyAI>().TakeDamage(20);
+                //raycast.collider.GetComponent<EnemyAI>().TakeDamage(20);
             }
         
       //Bullet move

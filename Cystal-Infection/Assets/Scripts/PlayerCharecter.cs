@@ -10,8 +10,8 @@ public class PlayerCharecter : MonoBehaviour
     [Header("Player Variables")]
     public bool isFaceRight = true;
     public float playerHP = 100;
-    private const float horSpeed = 10f;
-    private const float verSpeed = 10f;
+    private const float horSpeed = 0.5f;
+    private const float verSpeed = 0.5f;
     
     [SerializeField]
     private Camera mainCamera;
@@ -19,9 +19,7 @@ public class PlayerCharecter : MonoBehaviour
     private FixedJoystick fixedJoystick;
     Rigidbody2D rb;
     Animator animator;
-    Shooting shooting;
-  //  [SerializeField]
-  //  GameObject Gun;
+   
     void Start()
     {
        
